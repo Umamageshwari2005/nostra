@@ -1,0 +1,423 @@
+*{
+    padding:0px;
+    margin: 0;
+}
+.font{
+    font-size: 35px;
+}
+.nostra-title img{
+    height: 25px;
+    width: 25px;
+}
+.nostra-title{
+    display: flex;
+    justify-content: space-between;
+   align-items: center;
+   padding: 10px;
+   border-bottom: solid black 1px;
+    gap: 10px;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+ background-color: white;
+   
+}
+.nostra-title-para p:hover{
+    cursor: pointer;
+    
+}
+.nostra-title-para{
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    font-size: 20px;
+    
+}
+.nostra-back-img img{
+    height: 350px;
+    width: 100%;
+    opacity: 0.5;
+    position: relative;
+}
+.greater-one{
+    font-size: 300px;
+    position:absolute ;
+    top: 20px;
+   
+}
+.greater-two{
+    font-size: 300px;
+    position:absolute ;
+    top: 20px;
+    right: 1px;
+}
+.nostra-back-img-para{
+    font-size: 70px;
+    position:absolute ;
+    top: 100px;
+    left: 200px;
+    right: 70px;
+}
+.nostra-back-img-button{
+    background-color: white;
+    padding: 10px;
+    position: relative;
+    bottom: 200px;
+    left: 600px;
+}
+.nostra-brands{
+    font-size: 20px;
+}
+.nostra-brands img{
+    height: 100px;
+    width: 100px;
+    padding: 10px;
+}
+.nostra-brands{
+    margin: 5px;
+    padding: 10px;
+}
+.nostra-brands p{
+      padding: 5px;
+      font-family: 'Times New Roman', Times, serif;
+      font-size: 30px;
+      
+}
+.nostra-brands-images{
+    display: flex;
+    gap: 150px;
+   transition: 2s;
+}
+.nostra-lines-one h1{
+    font-size: 40px;
+    
+   
+}
+.nostra-lines-two{
+    font-size: 30px;
+    align-items: center;
+}
+.nostra-lines-full{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    padding: 10px;
+}
+.nostra-works-images{
+    height: 150px;
+    width:200px;
+    background-color: grey;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+}
+.nostra-works-images img{
+    height: 50px;
+    width:50px;
+   
+}
+.nostra-works h1{
+    font-size: 20px;
+    padding: 10px;
+    
+}
+.nostra-works p{
+    padding: 10px;
+}
+.nostra-works-fullimages{
+    display: flex;
+    gap: 150px;
+}
+.nostra-new-arrivals h1{
+    font-size: 40px;
+}
+.nostra-new-arrivals{
+    padding: 10px;
+
+margin: 10px;}
+.nostra-new-arrivals-images img{
+    height: 250px;
+    width: 250px;
+    margin: 20px;
+    opacity: 0.5;
+    
+}
+.nostra-new-arrivalsfull{
+    display: flex;
+    gap: 100px;
+}
+.nostra-new-arrivals-button{
+          padding: 10px;
+          background-color: white;
+          position: relative;
+          bottom: 150px;
+          left: 100px;
+          border-radius: 10px;
+}
+.nostra-most-wanted h1{
+    font-size: 40px;
+}
+.nostra-most-wantedimg img{
+    height: 200px;
+    width: 200px;
+    margin: 10px;
+}
+.nostra-most-wantedfull{
+    display: flex;
+    gap: 40px;
+    overflow: auto;
+}
+.nostra-most-wantedimg p{
+    background-color: red;
+    padding: 10px;
+    display: inline-block;
+    border-radius: 10px;
+    position: relative;
+    bottom: 210px;
+    left: 10px;
+}
+.nostra-limited-offer{
+    margin: 10px;
+    height: 300px;
+    width: 100%;
+    background-color: rgb(14, 14, 66);
+}
+.nostra-limited-offerimg img{
+    height: 250px ;
+    width: 400px;
+    margin: 20px;
+}
+.nostra-limited-offerlines h1{
+font-size: 40px;
+color: aliceblue;
+
+}
+.nostra-limited-offer{
+    display: flex;
+    justify-content: space-around;
+}
+.limited-offer-button{
+    padding: 10px;
+    background-color: aliceblue;
+    margin: 10px;
+    border-radius: 10px;
+}
+.nostra-letter{
+    margin: 50px;
+}
+.nostra-letter p{
+         font-size: 30px;
+         margin: 20px;
+}
+.nostra-letter input{
+    width: 1000px;
+    border-color: black;
+}
+.nostra-letter-button{
+    padding: 10px;
+    border-radius: 10px;
+    background-color:black;
+    color: aliceblue;
+    margin: 10px;
+}
+.nostra-footer{
+    height: 300px;
+    width: 100%;
+    background-color: rgb(24, 176, 184);
+    color: white;
+}
+.nostra-likes img{
+    height: 25px;
+    width: 25px;
+    position: relative;
+    bottom: 100px;
+    left:170px;
+}
+.nostra-footer h1{
+    font-size: 40px;
+    margin: 10px;
+    padding: 10px;
+}
+.nostra-footer p{
+    margin: 10px;
+    font-size: 20px;
+    padding: 10px;
+}
+.nostra-footer-images img{
+    height: 25px;
+    width: 25px;
+   
+}
+.nostra-footer-images{
+    display: flex;
+    gap: 50px;
+    margin: 10px;
+    padding: 10px;
+}
+.nostra-options1 {
+    font-size: 30px;
+    padding: 10px;
+    margin: 10px;
+}
+.nostra-options{
+    display: flex;
+    gap: 20px;
+}
+.nostra-options-img img{
+    width: 300px;
+    height: 300px;
+}
+.nostra-options2-1{
+    display: flex;
+    gap: 60px;
+}
+.nostra-options-img p{
+    font-size: 20px;
+}
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+  
+  /* Style the submit button with a specific background color etc */
+  input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* When moving the mouse over the submit button, add a darker green color */
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  /* Add a background color and some padding around the form */
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+  
+  .gear-image {
+    display: none; /* Initially hide the image */
+}
+
+/* Media Query for small screens */
+@media screen and (max-width: 600px) {
+    .gear-image {
+        display: block; /* Display the image on smaller screens */
+    }
+    .nostra-title-para{
+        display: none;
+    }
+    .greater-one{
+        font-size:100px ;
+        position: absolute;
+        top: 100px;
+    }
+    .greater-two{
+        font-size:100px ;
+        position: absolute;
+        top: 100px;
+    }
+    .nostra-back-img-para{
+        font-size: 20px;
+        position: absolute;
+        left: 100px ;
+    }
+    .nostra-back-img-button{
+        position: absolute;
+        top: 200px;
+        left: 200px;
+        height: 50px;
+    }
+    .nostra-brands-img img{
+        height: 25px;
+        width: 25px;
+        
+    }
+    .nostra-brands-images{
+        gap: 10px;
+    }
+    .nostra-brands-img p{
+        font-size: 20px;
+    }
+    .nostra-lines-one h1{
+        font-size: 20px;
+    }
+    .nostra-lines-two{
+        font-size: 20px;
+    }
+    .nostra-works-images h1{
+          font-size: 10px;
+    }
+    .nostra-works-images p{
+        font-size: 10px;
+  }
+  .nostra-works-images{
+    height:200px;
+   
+  }
+  .nostra-works-fullimages{
+    gap: 20px;
+  }
+  .nostra-new-arrivals-images img{
+    width: 70px;
+    height: 100px;
+  }
+  .nostra-new-arrivalsfull{
+    gap: 10px;
+  }
+.nostra-new-arrivals-button{
+    position: relative;
+    top:6px;
+    left: 10px;
+    width: 50px;
+    font-size: 10px;
+    height: 50px;
+    padding: 2px;
+}
+.nostra-limited-offerimg img{
+  width: 200px;
+
+}
+.nostra-limited-offerlines h1{
+    font-size: 20px;
+}
+.nostra-letter input{
+     width: 400px;
+}
+.nostra-letter p{
+    font-size: 15px;
+}
+.nostra-option1-occasions h1{
+    font-size: 20px;
+}
+.nostra-options1{
+    font-size: 16px;
+}
+.nostra-options-img img{
+    height: 100px;
+    width: 100px;
+}
+.nostra-options1-color h1{
+    font-size: 19px; 
+}
+.nostra-options-img h1{
+     font-size: 10px;
+}
+.nostra-options2-1{
+    gap: 10px;
+}
+}
